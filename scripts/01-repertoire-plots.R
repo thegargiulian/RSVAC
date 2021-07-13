@@ -80,7 +80,7 @@ repertoire_upset_plot <- function(conflict_actor_data, high_prev) {
     labs(y = "Count", title = "") +
     scale_fill_manual(name = "Actor type",
                       labels = c("Rebel", "State"),
-                      values = c("firebrick1", "dodgerblue1"))
+                      values = c("#8b1a1a", "#1874cd"))
 
 }
 
@@ -100,14 +100,15 @@ conflict_actor <- make_conflict_actor(load_rsvac(args$rsvac)) %>%
          actor_type_lab = if_else(actor_type %in% c(1, 5), "STATE", "REBEL"))
 
 # Figure 1a
-repetoire_bar_chart(conflict_actor, actor_type = "STATE", "dodgerblue1")
+repetoire_bar_chart(conflict_actor, actor_type = "STATE", "#1874cd")
 
 # Figure 1b
-repetoire_bar_chart(conflict_actor, actor_type = "REBEL", "firebrick1")
+repetoire_bar_chart(conflict_actor, actor_type = "REBEL", "#8b1a1a")
 
 # Figure A7
 repertoire_upset_plot(conflict_actor, high_prev = TRUE)
 
- # Fiugre A8
+# Fiugre A8
 repertoire_upset_plot(conflict_actor, high_prev = FALSE)
+
 # done.
