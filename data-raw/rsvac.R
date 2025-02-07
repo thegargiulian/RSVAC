@@ -34,7 +34,7 @@ sexual_slavery <- read_xlsx(rsvac_path, sheet = "sexual slavery") %>%
     select(-state_prev, -ai_prev, -hrw_prev, -form) %>%
     rename_at(.vars = vars(contains("sexual")),
               .funs = ~sub("sexualslav$|_sexual_slavery", "", .)) %>%
-    mutate(form = "sexual slavery")
+    mutate(form = "sexual slavery and forced marriage")
 
 forced_prostitution <- read_xlsx(rsvac_path, sheet = "forced prostitution") %>%
     janitor::clean_names() %>%
