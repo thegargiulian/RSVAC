@@ -42,7 +42,7 @@ A data frame with 1,411 rows and 31 columns.
 }
 }
 \source{
-\url{https://doi.org/10.1177/00223433211044674}
+\doi{doi:10.1177/00223433211044674}
 }
 \usage{
 rsvac

@@ -40,7 +40,7 @@
 #'   \item{location_notes}{A qualitative note that summarizes reported information on the location of sexual violence when information is available.}
 #'   \item{witness_notes}{A qualitative note that summarizes reported information on witnesses of sexual violence when information is available}
 #' }
-#' @source <https://doi.org/10.1177/00223433211044674>
+#' @source \doi{doi:10.1177/00223433211044674}
 #'
 "rsvac"
 
