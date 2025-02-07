@@ -49,6 +49,6 @@ rsvac
 }
 \description{
 Repertoires of Sexual Violence in Armed Conflict (RSVAC) data set
-(Dumaine et al. 2022) \url{https://doi.org/10.1177/00223433211044674}. Data covers the period 1989--2015.
+(Dumaine et al. 2022) \url{doi:10.1177/00223433211044674}. Data covers the period 1989--2015.
 }
 \keyword{datasets}
