@@ -89,7 +89,8 @@ rsvac <- bind_rows(rape,
                   .fns = ~na_if(.x, -99)),
            mp = na_if(mp, -99),
            across(.cols = ends_with("_notes"),
-                  .fns = ~na_if(.x, "-99")))
+                  .fns = ~na_if(.x, "-99"))) %>%
+    relocate(form, .before = state_prev)
 
 write_csv(rsvac, here::here("data-raw/rsvac.csv"))
 usethis::use_data(rsvac, overwrite = TRUE)

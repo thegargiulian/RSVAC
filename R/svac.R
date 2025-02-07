@@ -1,6 +1,6 @@
 #' Sexual Violence in Armed Conflict (SVAC) data
 #'
-#' Sexual Violence in Armed Conflict (SVAC) data set version 3.0 (Kay and Nordås 2014) <http://www.sexualviolencedata.org/>.
+#' Sexual Violence in Armed Conflict (SVAC) data set version 3.0 (Cohen and Nordås 2014) <http://www.sexualviolencedata.org/>.
 #'
 #' @docType data
 #'

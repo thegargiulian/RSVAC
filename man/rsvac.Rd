@@ -28,6 +28,7 @@ A data frame with 1,411 rows and 31 columns.
 \item{postc}{Binary indicator of an active conflict-year. From UCDP/PRIO.}
 \item{svac_form}{Reported forms of sexual violence coded in the SVAC data set. Variable shows which forms were coded using the SVAC definitions of sexual violence. This variable is included to preserve transparency and comparability of SVAC and RSVAC. Users of the RSVAC dataset should rely on \code{rsvac_form} to determine the forms an actor engaged in.}
 \item{rsvac_form}{Reported forms of sexual violence coded in the RSVAC data set. Variable was coded using definitions in Section 2.0 of the RSVAC Coding Manual. "-99" is used where SVAC found reports of sexual violence but RSVAC found no reports of any form.}
+\item{form}{The form of sexual violence being described. One of: forced abortion and forced sterilization, forced pregnancy (no instances in the data set), forced prostitution, rape, sexual abuse, sexual mutilation, sexual slavery and forced marriage, or sexual torture.}
 \item{state_prev}{Ordinal prevalence measure from 0--3 using the annual U.S. State Department "Country Report on Human Rights Practices". \code{NA} indicates no report found and no data available.}
 \item{ai_prev}{Ordinal prevalence measure from 0--3 using the annual reports and special topical reports of Amnesty International. \code{NA} indicates no report found and no data available.}
 \item{hrw_prev}{Ordinal prevalence measure from 0--3 using the annual reports and special topical reports of Human Rights Watch. \code{NA} indicates no report found and no data available.}
@@ -38,7 +39,6 @@ A data frame with 1,411 rows and 31 columns.
 \item{timing_notes}{A qualitative note that summarizes reported information on the timing of sexual violence when information is available.}
 \item{location_notes}{A qualitative note that summarizes reported information on the location of sexual violence when information is available.}
 \item{witness_notes}{A qualitative note that summarizes reported information on witnesses of sexual violence when information is available}
-\item{form}{The form of sexual violence being described of. One of: forced abortion and forced sterilization, forced pregnancy (no instances in the data set), forced prostitution, rape, sexual abuse, sexual mutilation, sexual slavery and forced marriage, or sexual torture.}
 }
 }
 \source{

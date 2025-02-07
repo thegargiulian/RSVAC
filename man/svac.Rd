@@ -39,6 +39,6 @@ A data frame with 9,282 rows and 22 columns.
 svac
 }
 \description{
-Sexual Violence in Armed Conflict (SVAC) data set version 3.0 (Kay and Nordås 2014) \url{http://www.sexualviolencedata.org/}.
+Sexual Violence in Armed Conflict (SVAC) data set version 3.0 (Cohen and Nordås 2014) \url{http://www.sexualviolencedata.org/}.
 }
 \keyword{datasets}
